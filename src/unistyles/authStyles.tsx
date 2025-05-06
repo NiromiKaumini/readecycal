@@ -11,15 +11,18 @@ export const splashStyles = createStyleSheet(({ colors, device }) => ({
         width: device.width * 0.8,
         height: device.height * 0.4,
         resizeMode: 'contain',
-        marginTop: 80,
+        marginTop: 100,
+        marginBottom:-140
     },
-    treeImage: {
-        width: device.width * 0.4,
-        height: device.height * 0.14,
+    bookImage: {
+        width: device.width * 0.7,
+        height: device.height * 0.5,
         resizeMode: 'contain',
     },
     msgText: {
         textAlign: "center",
+        marginBottom: 20,
+        marginTop:-60
     },
     animatedContainer: {
         justifyContent: 'center',

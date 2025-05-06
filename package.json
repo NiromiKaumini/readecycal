@@ -34,6 +34,7 @@
     "react-native-unistyles": "^2.32.0",
     "react-native-vector-icons": "^10.2.0",
     "react-redux": "^9.2.0",
+    "readcycle_mobileApp": "file:",
     "redux-persist": "^6.0.0",
     "uuid": "^11.1.0"
   },
