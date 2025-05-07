@@ -68,16 +68,16 @@ export const loginStyles = createStyleSheet(({ colors, device, border }) => ({
         height: 1,
         width: '100%',
         position: 'absolute',
-        backgroundColor: colors.border,
+        backgroundColor: colors.tertiary,
         zIndex: -1
     },
     breakerText: {
         opacity: 0.8,
-        backgroundColor: colors.background,
+        backgroundColor: colors.primary,
         paddingHorizontal: 10
     },
     buttonContainer: {
-        backgroundColor: colors.primary,
+        backgroundColor: colors.button,
         justifyContent: 'center',
         alignItems: 'center',
         width: '100%',
@@ -87,7 +87,7 @@ export const loginStyles = createStyleSheet(({ colors, device, border }) => ({
     },
     footer: {
         position: "absolute",
-        bottom: 26,
+        bottom: 50,
         alignSelf: 'center',
         width: '100%',
         justifyContent: 'center',

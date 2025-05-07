@@ -17,7 +17,8 @@ export const Colors = {
     border: '#E5E9EF',
     lightText: '#9197A6',
     active: '#019A51',
-    dark: '#18171C'
+    dark: '#18171C',
+    button:'#a34ce6',
 }
 
 export enum Fonts {
